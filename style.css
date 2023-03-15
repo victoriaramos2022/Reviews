@@ -1,0 +1,107 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: medium;
+  text-align: center;
+  background-color: #FEFCF3;
+}
+.title{
+  font-size: 30px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.review{
+  border-radius: 50px;
+  background-color: #F5EBE0;
+  box-shadow: 0 0 30px #DBA39A;
+  padding: 20px;
+  margin: 50px;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#author {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/* Estilos para el trabajo del autor */
+#job {
+  color: #777;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la información de la reseña */
+#info {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+ /* Estilos para los botones */
+ .button-container {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 20px;
+}
+
+.prev-btn,
+.next-btn,
+.random-btn {
+  background-color: #DBA39A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.next-btn {
+  margin-left: 40px;
+}
+
+.prev-btn:hover,
+.next-btn:hover,
+.random-btn:hover {
+  background-color: #343a40;
+}
+
+.prev-btn:focus,
+.next-btn:focus,
+.random-btn:focus {
+  outline: none;
+}
+
+.prev-btn i,
+.next-btn i {
+  margin-left: 5px;
+}
+
+
+
+.random-btn:hover {
+  background-color: #343a40;
+}
